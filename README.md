@@ -15,7 +15,7 @@ Provide a form to store results for a new polling unit.
 User-friendly interface with autocomplete and select boxes.
 
 
-**URL**: https://lovable.dev/projects/3a04fe8c-8e59-4be8-a77f-35539e0751c6
+**URL**: https://bincomtask.vercel.app/
 
 
 
