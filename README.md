@@ -1,24 +1,25 @@
-# Welcome to your Lovable project
+# Background Project info
 
-## Project info
+The project involves processing and displaying election results from a provided database containing dummy data for the 2011 elections. The database includes polling units, wards, LGAs (Local Government Areas), and states, with a focus on Delta State (state_id: 25). The database is accessible at:
+
+[Database Link](https://drive.google.com/file/d/0B77xAtHK1hd4Ukx6SHpqTkd6TWM/view?resourcekey=0-Uwrx8FyB_HnpYdskhHfYTw)
+
+## Key Features
+
+Display results for individual polling units.
+
+Summarize total results for all polling units under a selected LGA.
+
+Provide a form to store results for a new polling unit.
+
+User-friendly interface with autocomplete and select boxes.
+
 
 **URL**: https://lovable.dev/projects/3a04fe8c-8e59-4be8-a77f-35539e0751c6
 
-## How can I edit this code?
 
-There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/3a04fe8c-8e59-4be8-a77f-35539e0751c6) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Setup Instructions**
 
 Follow these steps:
 
@@ -54,20 +55,18 @@ npm run dev
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Vite: A next-generation build tool for fast development and optimized builds.
+- TypeScript: Adds static typing to JavaScript, enhancing code quality and maintainability.
+- React: A popular JavaScript library for building dynamic and reusable user interfaces.
+- shadcn-ui: A collection of accessible and customizable UI components for React.
+- Tailwind CSS: A utility-first CSS framework for rapid and responsive styling.
 
-## How can I deploy this project?
+## Usage
 
-Simply open [Lovable](https://lovable.dev/projects/3a04fe8c-8e59-4be8-a77f-35539e0751c6) and click on Share -> Publish.
+- Polling Unit Results: Navigate to the "Polling Unit" page, enter a polling unit ID, and view the detailed results.
 
-## Can I connect a custom domain to my Lovable project?
+- LGA Results: Go to the "LGA Results" page, select an LGA from the dropdown, and see the summed total of all polling units under that LGA.
 
-Yes, you can!
+- New Polling Unit: Use the "New Polling Unit" page to input results for a new polling unit, which will be stored in the database.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Features
